@@ -26,6 +26,20 @@
 
 -> Linux terminal <-
 
+
+
+
+
+
+
+-> # Installation of new cli tools <-
+
+-> *apt* <-
+
+--------------------------------------------
+
+-> Linux terminal <-
+
 *lars@spv:~$*
 
 --------------------------------------------
@@ -161,16 +175,178 @@ Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
 
 -> Linux terminal <-
 
-*lars@spv:~$* cowsay "Plask 2020. Awesome!"
-| ______________________
-|< Plask 2020. Awesome! >
-| ----------------------
-|        \\   ^__^
-|         \\  (oo)\\_______
-|            (__)\\       )\\/\\
-|                ||----w |
-|                ||     ||
-*lars@spv:~$* clear
+
+
+
+
+
+|                    *Linux streams*
+
+```
+        
+                     ---------------
+                    |               |
+                    |               | 
+         stdin ---> |    Program    | ---> stdout (1)
+                    |               | 
+                    |               |
+                     ---------------
+                            |
+                            |
+                             ----> stderr (2)
+                            
+```
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$*
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo Plask 2020
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo Plask 2020
+Plask 2020
+*lars@spv:~$*
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+
+
+
+
+
+-> # Redirect to file <-
+
+-> ( \> ) operator <-
+
+-> Demonstrert med *echo*, *curl* og og *cat* <-
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$*
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo Plash 2020 > plask.txt
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo Plash 2020 > plask.txt
+*lars@spv:~$*
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo Plash 2020 > plask.txt
+*lars@spv:~$* cat plask.txt
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo Plash 2020 > plask.txt
+*lars@spv:~$* cat plask.txt
+Plask 2020
+*lars@spv:~$*
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo Plash 2020 > plask.txt
+*lars@spv:~$* cat plask.txt
+Plask 2020
+*lars@spv:~$* curl -s https://www.metaweather.com/api/location/search/?query=ber
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo Plash 2020 > plask.txt
+*lars@spv:~$* cat plask.txt
+Plask 2020
+*lars@spv:~$* curl -s https://www.metaweather.com/api/location/search/?query=ber
+[{"title":"Berlin","location_type":"City","woeid":638242,"latt_long":"52.516071,13.376980"},{"title":"Nuremberg","location_type":"City","wo
+eid":680564,"latt_long":"49.454342,11.07349"},{"title":"Aberdeen","location_type":"City","woeid":10243,"latt_long":"57.153820,-2.106790"}]
+*lars@spv:~$*
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo Plash 2020 > plask.txt
+*lars@spv:~$* cat plask.txt
+Plask 2020
+*lars@spv:~$* curl -s https://www.metaweather.com/api/location/search/?query=ber
+[{"title":"Berlin","location_type":"City","woeid":638242,"latt_long":"52.516071,13.376980"},{"title":"Nuremberg","location_type":"City","wo
+eid":680564,"latt_long":"49.454342,11.07349"},{"title":"Aberdeen","location_type":"City","woeid":10243,"latt_long":"57.153820,-2.106790"}]
+*lars@spv:~$* curl -s https://www.metaweather.com/api/location/search/?query=ber > data.json
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo Plash 2020 > plask.txt
+*lars@spv:~$* cat plask.txt
+Plask 2020
+*lars@spv:~$* curl -s https://www.metaweather.com/api/location/search/?query=ber
+[{"title":"Berlin","location_type":"City","woeid":638242,"latt_long":"52.516071,13.376980"},{"title":"Nuremberg","location_type":"City","wo
+eid":680564,"latt_long":"49.454342,11.07349"},{"title":"Aberdeen","location_type":"City","woeid":10243,"latt_long":"57.153820,-2.106790"}]
+*lars@spv:~$* curl -s https://www.metaweather.com/api/location/search/?query=ber > data.json
+*lars@spv:~$*
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo Plash 2020 > plask.txt
+*lars@spv:~$* cat plask.txt
+Plask 2020
+*lars@spv:~$* curl -s https://www.metaweather.com/api/location/search/?query=ber
+[{"title":"Berlin","location_type":"City","woeid":638242,"latt_long":"52.516071,13.376980"},{"title":"Nuremberg","location_type":"City","wo
+eid":680564,"latt_long":"49.454342,11.07349"},{"title":"Aberdeen","location_type":"City","woeid":10243,"latt_long":"57.153820,-2.106790"}]
+*lars@spv:~$* curl -s https://www.metaweather.com/api/location/search/?query=ber > data.json
+*lars@spv:~$* cat data.json
+
+--------------------------------------------
+
+-> Linux terminal <-
+
+*lars@spv:~$* echo Plash 2020 > plask.txt
+*lars@spv:~$* cat plask.txt
+Plask 2020
+*lars@spv:~$* curl -s https://www.metaweather.com/api/location/search/?query=ber
+[{"title":"Berlin","location_type":"City","woeid":638242,"latt_long":"52.516071,13.376980"},{"title":"Nuremberg","location_type":"City","wo
+eid":680564,"latt_long":"49.454342,11.07349"},{"title":"Aberdeen","location_type":"City","woeid":10243,"latt_long":"57.153820,-2.106790"}]
+*lars@spv:~$* curl -s https://www.metaweather.com/api/location/search/?query=ber > data.json
+*lars@spv:~$* cat data.json
+[{"title":"Berlin","location_type":"City","woeid":638242,"latt_long":"52.516071,13.376980"},{"title":"Nuremberg","location_type":"City","wo
+eid":680564,"latt_long":"49.454342,11.07349"},{"title":"Aberdeen","location_type":"City","woeid":10243,"latt_long":"57.153820,-2.106790"}]
+*lars@spv:~$*
 
 --------------------------------------------
 
@@ -652,7 +828,6 @@ eid":680564,"latt_long":"49.454342,11.07349"},{"title":"Aberdeen","location_type
 
 -> Linux terminal <-
 
-63 is the number of chromosomes found in the offspring of a donkey and a horse.
 64 is number of golden disks in the myth of the Tower of Hanoi.
 65 is the minimum grade required to pass an exam, or class, in many areas.
 66 is the number of years of the longest hiccups on record by an American pig farmer from 1922 to 1987.
@@ -696,7 +871,6 @@ eid":680564,"latt_long":"49.454342,11.07349"},{"title":"Aberdeen","location_type
 
 -> Linux terminal <-
 
-63 is the number of chromosomes found in the offspring of a donkey and a horse.
 64 is number of golden disks in the myth of the Tower of Hanoi.
 65 is the minimum grade required to pass an exam, or class, in many areas.
 66 is the number of years of the longest hiccups on record by an American pig farmer from 1922 to 1987.
