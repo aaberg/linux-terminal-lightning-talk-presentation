@@ -914,17 +914,6 @@ Berlin
 
 -> Linux terminal <-
 
-64 is the number of sexual positions in the Kama Sutra.
-65 is the traditional age for retirement in the United Kingdom, Germany and other countries.
-66 is the total number of chapters in the Bible book of Isaiah.
-67 is the highest two-digit odd number not presently designating any highway in the Interstate Highway System of the United States.
-68 is the ideal temperature (F) for developing black-and-white film.
-69 is the number Bill and Ted were thinking of when talking to their future selves.
-70 is the distance (meter) from archer to targets in Olympic Archery.
-71 is the atomic number of lutetium.
-72 is the number of the Immortals of Taoism.
-73 is the length of the Arecibo message sent to space in search for extraterrestrial intelligence.
-74 is the number of stars obtained by SpongeBob SquarePants in his driving school.
 75 is the age limit for Canadian senators.
 76 is the atomic number of osmium.
 77 is the atomic number of iridium.
@@ -957,17 +946,6 @@ Berlin
 
 -> Linux terminal <-
 
-64 is the number of sexual positions in the Kama Sutra.
-65 is the traditional age for retirement in the United Kingdom, Germany and other countries.
-66 is the total number of chapters in the Bible book of Isaiah.
-67 is the highest two-digit odd number not presently designating any highway in the Interstate Highway System of the United States.
-68 is the ideal temperature (F) for developing black-and-white film.
-69 is the number Bill and Ted were thinking of when talking to their future selves.
-70 is the distance (meter) from archer to targets in Olympic Archery.
-71 is the atomic number of lutetium.
-72 is the number of the Immortals of Taoism.
-73 is the length of the Arecibo message sent to space in search for extraterrestrial intelligence.
-74 is the number of stars obtained by SpongeBob SquarePants in his driving school.
 75 is the age limit for Canadian senators.
 76 is the atomic number of osmium.
 77 is the atomic number of iridium.
